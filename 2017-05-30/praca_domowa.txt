@@ -1,0 +1,11 @@
+Niewielkie zadanie na przećwiczenie poprzednich zajęć:
+
+Przeczytaj (jeszcze raz) ze zrozumieniem example_2_mojepanstwo.py
+Następnie na podstawie lektury https://mojepanstwo.pl/api/krs oblicz, ile SPZOZ-ów pobiera dotacje UE (ma identyfikator beneficjenta inny niż 0).
+
+Program albo zrzut z konsoli, który prowadzi do tego wyniku, umieść w pliku spzoz.py, a samą liczbę w spzoz.txt
+
+Rozwiązanie powinno znaleźć się w repozytoriach do 2017-06-10 23:59.
+W razie pytań, tradycyjnie proszę mailować na p.kasprzyk@lach.edu.pl
+
+Ew. dla zainteresowanych - program użyty na poprzednich zajęciach do "migania" znajduje się w https://github.com/piotrkasprzyk/remote-blinker (właściwy serwer http to plik server.py)

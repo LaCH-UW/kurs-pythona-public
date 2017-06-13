@@ -1,0 +1,14 @@
+1. Wykonaj request GET na http://lach-python.talus.pl/<login_githubowy>/github?api_key=<klucz>
+ <klucz> to zawartość pliku secret.txt
+
+2. Wykonaj request POST na adres: http://lach-python.talus.pl/<login_githubowy>/krs
+wysyłając JSON postaci: { 'api_key': <klucz>, 'postal': <kod> }
+ <klucz> to zawartość pliku secret.txt
+ <kod> to kod pocztowy adresu najstarszego Kółka Rolniczego w KRS (wg. daty rejestracji u Mojego Państwa)
+
+3. Wykonaj request POST na adres: http://lach-python.talus.pl/<login_githubowy>/wiki
+wysyłając JSON postaci: { 'api_key': <klucz>, 'prev': <haslo>, 'battle_url': <adres_bitwy> }
+ <klucz> to zawartość pliku secret.txt
+ <haslo> to hasło zwrócone przez request z zadania 3
+ <adres_bitwy> to url wpisu na angielskiej wikipedii o najwcześniej zakończonej (wg tejże) bitwie wojen napoleońskich
+

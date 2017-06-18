@@ -2,6 +2,6 @@
 
 * zawartość repozytoriów z poprzednich zajęć jest tutaj zarchiwizowana
 * repozytorium do zajęć z 2017-05-30 oraz 2017-06-13 : https://classroom.github.com/assignment-invitations/5e71fd97cbdc3ebcf963821bcc7e17c6
-* kolejne zajęcia 2017-06-27(?) o 16:30
+* kolejne zajęcia 2017-06-27 o 16:30; praca domowa: praca_domowa_2.py w repo z ostatnich zajęć, do nadesłania do 26 czerwca 2017, godzina 20:00.
 * dzielona konsola: https://www.pythonanywhere.com/shared_console/f8b0d31e-edf9-4d1b-84dd-e183b0d89ff0
 

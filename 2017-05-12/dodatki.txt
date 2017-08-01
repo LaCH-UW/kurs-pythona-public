@@ -1,0 +1,5 @@
+Ułatwienia do zadania 2 na zajęciach:
+
+nazwy_plikow = [ "lord-jim.txt", "przedwiosnie.txt", "sklepy-cynamonowe.txt", "szewcy.txt", "ziemia-obiecana-tom-pierwszy.txt" ]
+
+tytuly = [ "Lord Jim", "Przedwiośnie", "Sklepy cynamonowe" "Szewcy", "Ziemia obiecana, Tom I"]

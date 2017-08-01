@@ -1,0 +1,15 @@
+1. Wypisz na wyjście i do pliku średnią arytmetyczną liczb:
+10, 1, 0, 40, 26, 7, 1, 4, 3
+
+2. Wypisz na wyjście liczby parzyste z tego ciągu
+
+3. Stwórz listę która zawiera pierwszych 5 liczb z tego ciągu (możesz to zrobić na 2 sposoby!)
+
+2. Oblicz i wypisz na wyjście ile jest liczb w tym ciągu
+	a. Przy użyciu listy i operacji na niej
+	b. Bez użycia list
+
+3. Wpisz podane liczby do słownika jako wartości i podaj liczby 10, 20, 30... jako klucze.
+
+Jest to zadanie do wykonania w trakcie zajęć dla osób, które miały już styczność z programowaniem w Pythonie.
+Osoby początkujące mogą je zrobić dla przećwiczenia.

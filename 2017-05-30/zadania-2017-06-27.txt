@@ -1,0 +1,31 @@
+1. Wykonaj request GET na http://lach-python.talus.pl/<login_githubowy>/github?api_key=<klucz>
+ <klucz> to zawartość pliku secret.txt
+
+2. Wykonaj request POST na adres: http://lach-python.talus.pl/<login_githubowy>/institutes
+wysyłając JSON postaci: { 'api_key': <klucz>, 'orders': <liczba> }
+ <klucz> to zawartość pliku secret.txt
+ <liczba> to liczba instytutów życia konsekrowanego według strony https://en.wikipedia.org/wiki/Catholic_religious_order
+
+Poniższe zadania zakładają jako źródło danych stronę https://en.wikipedia.org/wiki/List_of_popes
+
+3. Wykonaj request POST na adres: http://lach-python.talus.pl/<login_githubowy>/roman_popes
+wysyłając JSON postaci: { 'api_key': <klucz>, 'prev': <haslo>, 'count': <liczba> }
+ <klucz> to zawartość pliku secret.txt
+ <haslo> to hasło zwrócone przez request z poprzedniego zadania
+ <liczba> to liczba papieży urodzonych w Rzymie
+
+4. Wykonaj request POST na adres: http://lach-python.talus.pl/<login_githubowy>/pope
+wysyłając JSON postaci: { 'api_key': <klucz>, 'prev': <haslo>, 'eldest': { 'age': <wiek_starego>, names: [<imie_starego>, <imie_starego2>, ...] }, 'youngest': { 'age': <wiek_mlodego>, names: [<imie_mlodego>, <imie_mlodego2>, ...] } }
+ <klucz> to zawartość pliku secret.txt
+ <haslo> to hasło zwrócone przez request z poprzedniego zadania
+ <wiek_mlodego> to wiek, w którym był papież, który w najmłodszym wieku został głową kościoła
+ <imie_mlodego> (i ew. <imie_mlodego2> etc jeśli jest kilku ex aequo) to łacińskie imię tegoż
+ <wiek_starego> to wiek, w którym był papież, który w najstarszym wieku został głową kościoła
+ <imie_starego> (i ew. <imie_starego2> etc jeśli jest kilku ex aequo) to łacińskie imię tegoż
+
+5. Wykonaj request POST na adres: http://lach-python.talus.pl/<login_githubowy>/papal_orders
+wysyłając JSON postaci: { 'api_key': <klucz>, 'prev': <haslo>, 'papal_order': <nazwa> }
+ <klucz> to zawartość pliku secret.txt
+ <haslo> to hasło zwrócone przez request z poprzedniego zadania
+ <nazwa> to angielska nazwa ("common name") zakonu, z którego wywodziło się najwięcej papieży
+

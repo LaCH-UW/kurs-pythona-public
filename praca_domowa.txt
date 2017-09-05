@@ -1,0 +1,18 @@
+0. Jeśli nie zrobiłeś/aś pracy domowej z poprzednich zajęć, ZRÓB JĄ KONIECZNIE (w repozytorium do poprzednich zajęć, czyli 2017-03-21-<login>).
+
+Pozostałe zadania należy robić w bieżącym (=tym) repozytorium.
+
+W razie potrzeby, plik 0_przyklady.py zawiera garść przykładów z zajęć.
+
+1. Współczynnk bogactwa leksykalnego tekstu to stosunek liczby różnych słóww tekście do łącznej liczby słów w tekście. Na potrzeby tego zadania używamy definicji "słów" z poprzednich zajęć, czyli słowo == część wydzielona przez funkcję split().
+   Napisz funkcję, która policzy współczynnik bogactwa leksykalnego dla tekstu zawartym w pliku o podanej w parametrze nazwie. Funkcję zapisz w pliku 1_bogactwo.py
+2. Użyj funkcji z polecenia 1 do wyliczenia w/w współczynnika dla pliku lalka-tom-pierwszy.txt , i zapisz ten współczynnik w pliku 1_bogactwo.txt
+3. Napisz funcję, która policzy ile zdań mających więcej niż 5 słów jest w tekście zawartym w pliku o podanej w parametrze nazwie. Na potrzeby naszego ćwiczenia "słowo" to jak wyżej, a "zdanie" to "ciąg słów od kropki do kropki". Funkcję zapisz w pliku 2_dlugie.py
+   Podpowiedź: pamiętaj, że funkcja split() może przyjąć parametr.
+4. Użyj funkcji z polecenia 3 do policzenia w/w zdań dla pliku lalka-tom-pierwszy.txt , i zapisz wynik w pliku 2_dlugie.txt
+5. Użyj konkordancera z nltk (1.3 w http://www.nltk.org/book/ch01.html) do sporządzenia konkordacji słowa "Wysocki". Zapisz wynik do pliku 3_wysocki.txt
+   Podpowiedź: obiekt tekstowy nltk (używany w tym i innych punktach) można stworzyć z listy tokenów wołając nltk.Text(list_of_tokens)
+
+Termin nadsyłania (=wypushowania do repozytorium) prac domowych to 2017-04-13 23:59.
+
+W razie pytań: p.kasprzyk@lach.edu.pl

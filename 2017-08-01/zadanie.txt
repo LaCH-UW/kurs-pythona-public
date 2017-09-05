@@ -1,0 +1,20 @@
+
+1. Napisz funkcję get_mps() , która za pomocą API z https://api-v3.mojepanstwo.pl/ pozyska dane o posłach na Sejm RP VIII kadencji i zapisze w pliku mp_8.json
+2. Napisz funkcję get_city_coords(city_name) , która pozyska z www.wikidata.org współrzędne GPS miasta przekazanego przez parametr
+3. Użyj funkcji get_city_coords() z pktu 2 do wzbogacenia danych z mp_8.json o współrzędne miejsca urodzenia każdego z posłów; wynik zapisz do mp_8_coords.json
+4. Na podstawie pliku mp_8_coords.json stwórz biblioteką plotly mapkę miejsc urodzeń posłów. Wynik zapisz w pliku mp_8_birthplaces.html .
+   Pamiętaj o rozsądnym wykadrowaniu mapy i sensownym opisaniu punktów!
+5. Zrób (również w plotly, również na podstawie mp_8_coords.json) wykres słupkowy "głosowań zbuntowanych" posłów w rozbiciu na kluby. Wynik zapisz w pliku mp_8_rogues.html .
+6. Napisz funkcję get_most_popular_words(text, minimal_count) , która dla tekstu text zwróci listę najczęściej występujących w nim słów i liczby ich użyć,
+   posortowaną malejąco po liczbie użyć. Na liście nie powinny znaleźć się słowa, które występują w tekście mniej niż min_count razy.
+7. Napisz funkcję get_talks() , która za pomocą API z https://api-v3.mojepanstwo.pl/ pozyska dane o wystąpieniach posłów na Sejm RP VIII kadencji i zapisze w pliku talk_stubs_8.json
+7. Znajdź w mp_8_coords.json posła, który mówił najwięcej (liczba słów) i z pomocą get_most_popular_words(), talk_stubs_8.json i https://api-v3.mojepanstwo.pl/
+   stwórz plik mp_8_most_popular_by_{posel}.json , zawierający listę j/w z minimal_count = 3. Zamiast {posel} użyj pola 'slug' (np. 'gizynski-szymon').
+   Uwaga: przeczytaj https://mojepanstwo.pl/api/sejmometr i zauważ, że pełne treści wystąpień można pobierać tylko po ID konkretnego wystąpienia (albo konkretnym URL).
+8. Napisz funkcję get_length(talk_stub) , która obliczy czas (w minutach) podanego wystąpienia sejmowego (format jak w pliku talk_stubs_8.json).
+9. Użyj funkcji get_length() do wyznaczenia czasu trwania najdłuższego wystąpienia sejmowego. Zapisz w pliku longest_standing.txt jego datę, imię i nazwisko mówcy
+   oraz wiek tegoż w momencie wygłaszania przemowy (dokładnie: lata, miesiące, dni).
+
+
+
+

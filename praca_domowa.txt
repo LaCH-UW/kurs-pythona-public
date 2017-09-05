@@ -1,0 +1,29 @@
+Praca domowa (obowiązkowa) składa się z dwóch części:
+
+A. Stwórz w swoim repozytorium plik dane.txt zawierający własne imię i nazwisko
+B. Stwórz w swoim repozytorium plik palindromy.py zawierający kod rozwiązujący poniższe 6 zadań.
+
+Nie zapomnij zacommitować i wypushować swojej pracy!
+
+Pliki powinny znaleźć się w repozytorium githubowym do 2 kwietnia 2017, godz. 23.59.
+
+1. Sprawdź czy podane słowa są palindromami:
+slowa = ['aaabaaa', 'aa', 'c', 'bbaa', 'baba', 'abba']
+
+2. Napisz funkcję, która wygeneruje palindromy postaci baaa..aaab o długości podanej przez użytkownika (przez argument).
+Palindrom o długości 1 to b, o długości 2 to bb.
+
+3. Napisz funkcję, który wygeneruje palindromy postaci:
+a..aba..a jeśli użytkownik poda liczbę nieparzystą
+a..abba..a jeśli użytkownik poda liczbę parzystą
+gdzie podana przez użytkownika liczba jest długością generowanego palindromu
+
+4. Wygeneruj 100 palindromów (jak w 3.) o długościach 1, 2, ... i wpisz je do listy. Następnie wypisz palindromy nr. 3, 7, 15, 62.
+
+5. Poproś użytkownika 5 razy o podanie liczby. Wygeneruj palindromy o długościach równych podanym liczbom i wpisz je do słownika, gdzie liczba jest kluczem, a palindrom wartością. Jeśli jakaś liczba została podana dwa razy, wypisz komunikat o tym.
+Wskazówka: Możesz wygenerować palindrom i sprawdzić, czy istnieje już w słowniku.
+Uwaga: do czytania wejścia od użytkownika służy funkcja input():
+a = input()  # na zmiennej 'a' znajdzie się wszystko, co użytkownik napisał zanim nacisnął enter
+
+6. Poproś użytkownika o podanie napisu. Wypisz jego długość i informację o tym, czy jest on palindromem. Bonus: zastanów się nad tym, co może wpisać użytkownik i jak to obsłużyć.
+

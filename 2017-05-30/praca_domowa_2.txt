@@ -1,0 +1,24 @@
+"Praca domowa" składa się z dwóch części:
+
+1. Przeczytaj ze zrozumieniem funkcję BattleScraper._parse_date w pliku example_3_wikipedia.py.
+   Zwróć uwagę, jak python obsługuje daty.
+   Pomocne w zrozumieniu funkcji może być:
+    * interludium_1.py (o wyjątkach)
+    * https://docs.python.org/3/library/datetime.html
+
+2. Niewielkie zadanie na przećwiczenie poprzednich zajęć i obsługi xmla:
+
+   a. "Obejrzyj" strony: https://en.wikipedia.org/wiki/Landlocked_country#List_of_landlocked_countries_and_territories i https://en.wikipedia.org/wiki/Navies_of_landlocked_countries
+      Na potrzeby ćwiczenia przyjmijmy, że każdy kraj bez dostępu do morza mający flotę rozpoczyna własny podpunkt listy (<li>) na stronie "Navies of landlocked countries", i każdy kraj występujące na obu stronach jest linkiem (<a>) z atrybutem title="nazwa kraju".
+   b. Ustal, jaki procent mieszkańców krajów bez dostępu do morza mieszka w kraju mającym flotę.
+   Hipotetyczny przykład: załóżmy, że jedyne kraje w tabelce to Burundi (8,988,091 ludności) i Afghanistan (33,369,945). Burundi ma flotę, Afganistan nie, zatem odpowiedź to 100% * 8,988,091 / (8,988,091 + 33,369,945) = 21.219328960389003% (zaokrąglenie dowolne)
+   Kod prowadzący do rozwiązania zapisz pliku landlocked.py, a samo rozwiązanie w landlocked.txt
+
+   Lektura pomocnicza:
+    * BattleScraper.get_battles w pliku example_3_wikipedia.py
+    * https://blog.scrapinghub.com/2016/10/27/an-introduction-to-xpath-with-examples/
+    * F12 + opcja inspect w przeglądarkach
+    * dla ambitnych: funkcje i axes w xpath ( np. http://zvon.org/xxl/XPathTutorial/Output/examples.html )
+   Podpowiedź:
+    * "u mnie" chrome w tagu '<table>' znajduje osadzony tag '<tbody>', a dopiero w nim tagi '<tr>'; przy dostępie przez requests taga '<tbody>' nie ma; jeśli generujecie państwo xpathy przy użyciu przeglądarki, czasem warto je upraszczać (np. zamiast '/table/tbody/tr' zrobić '/table//tr')
+    * Turkmenistan formalnie nie spełnia specyfikacji, ale punkty bonusowe za program, który go złapie :)

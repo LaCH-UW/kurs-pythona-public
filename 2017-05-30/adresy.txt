@@ -1,0 +1,8 @@
+
+python-requests : http://docs.python-requests.org/en/master/
+GitHub api : https://api.github.com/
+Moje Państwo : https://mojepanstwo.pl/api
+Bitwy napoleońskie na wikipedii : https://en.wikipedia.org/wiki/List_of_Napoleonic_battles
+"Nasze" api : http://lach-python.talus.pl
+
+

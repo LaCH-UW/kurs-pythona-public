@@ -1,0 +1,5 @@
+
+Potencjalnie ciekawe lektury:
+
+http://www.nltk.org/
+http://matplotlib.org/ , a zwłaszcza http://www.nltk.org/book/ch01.html
